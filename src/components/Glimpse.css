@@ -45,14 +45,13 @@
     border-radius: 14px;
     overflow: hidden;
     transition: all 0.4s ease;
-    opacity: 0.6;
+    opacity: 1;
     transform: scale(0.88);
     cursor: pointer;
 }
 
 /* Active (center) card */
 .glimpse-active {
-    opacity: 1;
     transform: scale(1);
     height: 340px;
     border-radius: 16px;

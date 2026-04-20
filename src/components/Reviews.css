@@ -51,7 +51,7 @@
     height: 100%;
     box-sizing: border-box;
     transition: all 0.4s ease;
-    opacity: 0.6;
+    opacity: 1;
     transform: scale(0.92);
     text-align: center;
     border: 1.5px solid #f0e8e0;
@@ -61,7 +61,6 @@
 .active-card {
     background: #fff0f3;
     border-color: #f5c9d0;
-    opacity: 1;
     transform: scale(1);
     box-shadow: 0 20px 50px rgba(179, 43, 43, 0.12);
 }
