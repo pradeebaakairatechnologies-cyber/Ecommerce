@@ -11,6 +11,7 @@ import FeaturesBar from './components/FeaturesBar'
 import About from './components/About'
 import Products from './components/Products'
 import Snacks from './components/Snacks'
+import Reviews from './components/Reviews'
 
 function App() {
   useEffect(() => {
@@ -32,6 +33,7 @@ function App() {
       <About />
       <Products />
       <Snacks />
+      <Reviews />
     </>
   )
 }
