@@ -1,0 +1,15 @@
+.top-header {
+    background-color: #b32b2b; /* A premium maroon color matching the image */
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    width: 100%;
+}
+
+.top-header p {
+    margin: 0;
+    text-transform: uppercase;
+}
