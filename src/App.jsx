@@ -6,6 +6,7 @@ import TopHeader from './components/TopHeader'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Categories from './components/Categories'
+import About from './components/About'
 
 function App() {
   useEffect(() => {
@@ -22,6 +23,7 @@ function App() {
       <Navbar />
       <Hero />
       <Categories />
+      <About />
     </>
   )
 }
