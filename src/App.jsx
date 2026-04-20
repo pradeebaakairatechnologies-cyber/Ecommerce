@@ -6,6 +6,7 @@ import TopHeader from './components/TopHeader'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Categories from './components/Categories'
+import FeaturesBar from './components/FeaturesBar'
 import About from './components/About'
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Navbar />
       <Hero />
       <Categories />
+      <FeaturesBar />
       <About />
     </>
   )
