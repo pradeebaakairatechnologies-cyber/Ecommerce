@@ -10,6 +10,7 @@ import Categories from './components/Categories'
 import FeaturesBar from './components/FeaturesBar'
 import About from './components/About'
 import Products from './components/Products'
+import Snacks from './components/Snacks'
 
 function App() {
   useEffect(() => {
@@ -30,6 +31,7 @@ function App() {
       <FeaturesBar />
       <About />
       <Products />
+      <Snacks />
     </>
   )
 }
