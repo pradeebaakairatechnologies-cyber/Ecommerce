@@ -12,19 +12,19 @@ const Categories = () => {
             id: 1,
             name: "Palkova",
             image: palkovaImg,
-            color: "#b32b2b" // Logo red
+            color: "#b32b2b" // Red
         },
         {
             id: 2,
             name: "Kadalai Mittai",
             image: kadalaiImg,
-            color: "#b32b2b"
+            color: "#e29513" // Gold
         },
         {
             id: 3,
             name: "Native Sweets",
             image: sweetsImg,
-            color: "#b32b2b"
+            color: "#b32b2b" // Red
         }
     ];
 

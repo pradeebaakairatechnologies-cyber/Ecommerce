@@ -62,7 +62,7 @@
 
 .hero-badge {
     display: inline-block;
-    background: #b32b2b;
+    background: #e29513;
     color: white;
     padding: 6px 16px;
     font-size: 14px;
@@ -84,7 +84,7 @@
 .hero-subtitle {
     font-size: 24px;
     text-transform: uppercase;
-    color: #b32b2b;
+    color: #e29513;
     font-weight: 700;
     margin-bottom: 20px;
     letter-spacing: 2px;
@@ -104,7 +104,7 @@
 }
 
 .primary-btn {
-    background-color: #4a2c2a;
+    background-color: #b32b2b;
     color: white;
     border: none;
     padding: 18px 40px;
@@ -117,9 +117,9 @@
 }
 
 .primary-btn:hover {
-    background-color: #b32b2b;
+    background-color: #e29513;
     transform: translateY(-5px);
-    box-shadow: 0 15px 30px rgba(179, 43, 43, 0.3);
+    box-shadow: 0 15px 30px rgba(226, 149, 19, 0.3);
 }
 
 .hero-icons {

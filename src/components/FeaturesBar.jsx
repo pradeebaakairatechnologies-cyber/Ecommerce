@@ -5,35 +5,35 @@ import './FeaturesBar.css';
 const FeaturesBar = () => {
     const features = [
         {
-            icon: <Heart fill="#e57373" color="#e57373" />,
+            icon: <Heart fill="#b32b2b" color="#b32b2b" />,
             topText: "Signature snacks made",
             bottomText: "by native makers",
             bgColor: "#fff5f5",
-            accentColor: "#d32f2f",
+            accentColor: "#b32b2b",
             id: 1
         },
         {
-            icon: <MapPin fill="#d4a373" color="#d4a373" />,
+            icon: <MapPin fill="#e29513" color="#e29513" />,
             topText: "Experience the",
             bottomText: "True Taste of India",
-            bgColor: "#fefae0",
-            accentColor: "#8b4513",
+            bgColor: "#fff9eb",
+            accentColor: "#e29513",
             id: 2
         },
         {
-            icon: <Truck fill="#81c784" color="#81c784" />,
+            icon: <Truck fill="#b32b2b" color="#b32b2b" />,
             topText: "Delivered Pan India",
             bottomText: "Express Shipping",
-            bgColor: "#f1f8e9",
-            accentColor: "#2e7d32",
+            bgColor: "#fff5f5",
+            accentColor: "#b32b2b",
             id: 3
         },
         {
-            icon: <Globe fill="#64b5f6" color="#64b5f6" />,
+            icon: <Globe fill="#e29513" color="#e29513" />,
             topText: "Fast Shipping",
             bottomText: "Across All States",
-            bgColor: "#e3f2fd",
-            accentColor: "#1565c0",
+            bgColor: "#fff9eb",
+            accentColor: "#e29513",
             id: 4
         }
     ];
