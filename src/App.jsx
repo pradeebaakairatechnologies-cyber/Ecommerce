@@ -13,6 +13,7 @@ import Products from './components/Products'
 import Snacks from './components/Snacks'
 import PaatiCorner from './components/PaatiCorner'
 import Reviews from './components/Reviews'
+import Glimpse from './components/Glimpse'
 import Footer from './components/Footer'
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
       <Snacks />
       <PaatiCorner />
       <Reviews />
+      <Glimpse />
       <Footer />
     </>
   )

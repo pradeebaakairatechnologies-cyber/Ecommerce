@@ -1,0 +1,193 @@
+.glimpse-section {
+    padding: 80px 0;
+    background-color: #eef4f8;
+    overflow: hidden;
+}
+
+.glimpse-container {
+    max-width: 100%;
+}
+
+/* Title */
+.glimpse-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #1a1a1a;
+    text-align: center;
+    margin: 0 0 50px 0;
+    padding: 0 5%;
+}
+
+/* Swiper Wrapper */
+.glimpse-swiper-wrap {
+    position: relative;
+    padding: 20px 0;
+}
+
+.glimpse-swiper {
+    overflow: visible !important;
+    padding: 20px 40px !important;
+}
+
+/* Slide */
+.glimpse-slide {
+    height: 340px;
+    display: flex;
+    align-items: center;
+}
+
+/* Card */
+.glimpse-card {
+    position: relative;
+    width: 100%;
+    height: 280px;
+    border-radius: 14px;
+    overflow: hidden;
+    transition: all 0.4s ease;
+    opacity: 0.6;
+    transform: scale(0.88);
+    cursor: pointer;
+}
+
+/* Active (center) card */
+.glimpse-active {
+    opacity: 1;
+    transform: scale(1);
+    height: 340px;
+    border-radius: 16px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+}
+
+/* Image */
+.glimpse-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.glimpse-card:hover .glimpse-img {
+    transform: scale(1.05);
+}
+
+/* Product overlay (center card only) */
+.glimpse-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 12px;
+    z-index: 4;
+}
+
+.glimpse-product-info {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
+    padding: 10px 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.glimpse-thumb {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.glimpse-text {
+    flex: 1;
+    min-width: 0;
+}
+
+.glimpse-name {
+    font-size: 12px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin: 0 0 2px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.glimpse-price {
+    font-size: 13px;
+    font-weight: 800;
+    color: #1a1a1a;
+    margin: 0;
+}
+
+.glimpse-original {
+    font-size: 11px;
+    color: #aaa;
+    text-decoration: line-through;
+    font-weight: 400;
+    margin-left: 4px;
+}
+
+/* Add button */
+.glimpse-add-btn {
+    background: #b32b2b;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: background 0.3s ease;
+}
+
+.glimpse-add-btn:hover {
+    background: #e29513;
+}
+
+/* Navigation */
+.glimpse-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 44px;
+    height: 44px;
+    background: #fff;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    font-size: 24px;
+    line-height: 1;
+    cursor: pointer;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.glimpse-nav:hover {
+    background: #b32b2b;
+    border-color: #b32b2b;
+    color: #fff;
+}
+
+.glimpse-prev { left: 20px; }
+.glimpse-next { right: 20px; }
+
+/* Hide default swiper arrows */
+.glimpse-swiper .swiper-button-next,
+.glimpse-swiper .swiper-button-prev {
+    display: none !important;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .glimpse-title { font-size: 22px; }
+    .glimpse-nav { display: none; }
+    .glimpse-section { padding: 60px 0; }
+}
