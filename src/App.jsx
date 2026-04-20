@@ -12,6 +12,7 @@ import About from './components/About'
 import Products from './components/Products'
 import Snacks from './components/Snacks'
 import Reviews from './components/Reviews'
+import Footer from './components/Footer'
 
 function App() {
   useEffect(() => {
@@ -34,6 +35,7 @@ function App() {
       <Products />
       <Snacks />
       <Reviews />
+      <Footer />
     </>
   )
 }
