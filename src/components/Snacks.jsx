@@ -102,30 +102,7 @@ const snacks = [
         weight: "180 g",
         isNew: false,
     },
-    {
-        id: 9,
-        name: "Sattur Murukku",
-        image: "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=400&q=80",
-        badge: "Tamil Nadu Special",
-        badgeColor: "#e29513",
-        rating: 4.63,
-        originalPrice: 239,
-        discountedPrice: 199,
-        weight: "180 g",
-        isNew: false,
-    },
-    {
-        id: 10,
-        name: "Ellu Urundai (Sesame Ball)",
-        image: "https://images.unsplash.com/photo-1516714435131-44d6b64dc6a2?w=400&q=80",
-        badge: "Native Special",
-        badgeColor: "#b32b2b",
-        rating: 4.89,
-        originalPrice: 239,
-        discountedPrice: 199,
-        weight: "200 g",
-        isNew: false,
-    },
+
 ];
 
 const SnackCard = ({ snack }) => {
