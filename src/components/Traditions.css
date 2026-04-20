@@ -1,0 +1,103 @@
+.traditions-section {
+    background-color: #b32b2b; /* Brand Red */
+    padding: 100px 5%;
+    color: white;
+    text-align: center;
+}
+
+.traditions-container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.traditions-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 52px;
+    margin-bottom: 80px;
+    font-weight: 700;
+}
+
+.traditions-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+    text-align: left;
+}
+
+.tradition-item {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.tradition-icon-wrap {
+    width: 200px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.tradition-icon-wrap img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.tradition-content h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 15px;
+    display: inline-block;
+    min-width: 150px;
+}
+
+.tradition-content p {
+    font-size: 18px;
+    line-height: 1.7;
+    opacity: 0.9;
+    font-weight: 300;
+}
+
+/* Specific text styling for Purity section if needed */
+.purity-highlight {
+    font-weight: 700;
+    color: #e29513; /* Gold accent */
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .traditions-grid {
+        gap: 40px;
+    }
+    .traditions-title {
+        font-size: 42px;
+    }
+    .tradition-content h3 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 768px) {
+    .traditions-section {
+        padding: 60px 20px;
+    }
+    .traditions-grid {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+    .tradition-item {
+        align-items: center;
+        text-align: center;
+    }
+    .tradition-icon-wrap {
+        justify-content: center;
+    }
+    .traditions-title {
+        font-size: 36px;
+        margin-bottom: 50px;
+    }
+}

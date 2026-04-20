@@ -99,9 +99,7 @@
 .floating-fruits {
     position: absolute;
     width: 120px;
-    opacity: 0.6;
     z-index: 1;
-    filter: blur(1px);
 }
 
 .fruits-1 {

@@ -91,8 +91,8 @@ const Glimpse = () => {
                             1024: { slidesPerView: 5,   spaceBetween: 16 },
                         }}
                     >
-                        {glimpseItems.map((item) => (
-                            <SwiperSlide key={item.id} className="glimpse-slide">
+                        {[...glimpseItems, ...glimpseItems].map((item, index) => (
+                            <SwiperSlide key={`${item.id}-${index}`} className="glimpse-slide">
                                 {({ isActive }) => (
                                     <div className={`glimpse-card ${isActive ? 'glimpse-active' : ''}`}>
                                         <img

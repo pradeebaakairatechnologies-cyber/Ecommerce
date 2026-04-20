@@ -4,17 +4,9 @@ import 'aos/dist/aos.css'
 import './App.css'
 import TopHeader from './components/TopHeader'
 import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import Marquee from './components/Marquee'
-import Categories from './components/Categories'
-import FeaturesBar from './components/FeaturesBar'
-import About from './components/About'
-import Products from './components/Products'
-import Snacks from './components/Snacks'
-import PaatiCorner from './components/PaatiCorner'
-import Reviews from './components/Reviews'
-import Glimpse from './components/Glimpse'
 import Footer from './components/Footer'
+import OrderPopup from './components/OrderPopup'
+import Home from './pages/Home'
 
 function App() {
   useEffect(() => {
@@ -29,17 +21,9 @@ function App() {
     <>
       <TopHeader />
       <Navbar />
-      <Hero />
-      <Marquee />
-      <Categories />
-      <FeaturesBar />
-      <About />
-      <Products />
-      <Snacks />
-      <PaatiCorner />
-      <Reviews />
-      <Glimpse />
+      <Home />
       <Footer />
+      <OrderPopup />
     </>
   )
 }
