@@ -9,7 +9,7 @@ import jumboPetti from '../assets/jumbo-petti.png';
 const products = [
     {
         id: 1,
-        name: "Palakara Petti (பலகாரப்பெட்டி)",
+        name: "Palakara Petti",
         image: palkovaPetti,
         badge: "South Indian Special",
         rating: 4.82,
