@@ -72,25 +72,29 @@ const Glimpse = () => {
                 </h2>
 
                 <div className="glimpse-swiper-wrap" data-aos="fade-up">
-                    <Swiper
-                        modules={[Navigation, Autoplay]}
-                        slidesPerView={5}
-                        centeredSlides={true}
-                        spaceBetween={16}
-                        navigation={{
-                            nextEl: '.glimpse-next',
-                            prevEl: '.glimpse-prev',
-                        }}
-                        autoplay={{ delay: 3500, disableOnInteraction: false }}
-                        loop={true}
-                        speed={600}
-                        className="glimpse-swiper"
-                        breakpoints={{
-                            0:    { slidesPerView: 1.5, spaceBetween: 12 },
-                            640:  { slidesPerView: 3,   spaceBetween: 14 },
-                            1024: { slidesPerView: 5,   spaceBetween: 16 },
-                        }}
-                    >
+                        <Swiper
+                            modules={[Navigation, Autoplay]}
+                            slidesPerView={5}
+                            centeredSlides={true}
+                            spaceBetween={16}
+                            navigation={{
+                                nextEl: '.glimpse-next',
+                                prevEl: '.glimpse-prev',
+                            }}
+                            autoplay={{ delay: 3500, disableOnInteraction: false }}
+                            loop={true}
+                            loopedSlides={5}
+                            loopAdditionalSlides={2}
+                            observer={true}
+                            observeParents={true}
+                            speed={600}
+                            className="glimpse-swiper"
+                            breakpoints={{
+                                0:    { slidesPerView: 1.5, spaceBetween: 12 },
+                                640:  { slidesPerView: 3,   spaceBetween: 14 },
+                                1024: { slidesPerView: 5,   spaceBetween: 16 },
+                            }}
+                        >
                         {glimpseItems.map((item) => (
                             <SwiperSlide key={item.id} className="glimpse-slide">
                                 {({ isActive }) => (
