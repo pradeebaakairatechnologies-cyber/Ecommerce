@@ -5,6 +5,7 @@ import './App.css'
 import TopHeader from './components/TopHeader'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import Categories from './components/Categories'
 
 function App() {
   useEffect(() => {
@@ -20,6 +21,7 @@ function App() {
       <TopHeader />
       <Navbar />
       <Hero />
+      <Categories />
     </>
   )
 }

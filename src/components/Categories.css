@@ -1,0 +1,140 @@
+.categories-section {
+    padding: 100px 5%;
+    background-color: #fdfdfd;
+}
+
+.categories-container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    color: #2d5a27;
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+
+.section-subtitle {
+    font-size: 18px;
+    color: #666;
+    letter-spacing: 1px;
+}
+
+.categories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+}
+
+.category-card {
+    position: relative;
+    border-radius: 40px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.05);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    flex-direction: column;
+}
+
+.category-card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 30px 60px rgba(45, 90, 39, 0.15);
+}
+
+.card-image-wrap {
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+
+.category-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform 0.5s ease;
+}
+
+.category-card:hover .category-img {
+    transform: scale(1.1);
+}
+
+.card-wave-separator {
+    margin-top: -30px;
+    line-height: 0;
+    z-index: 2;
+}
+
+.card-wave-separator svg {
+    width: 100%;
+    height: 80px;
+}
+
+.card-content {
+    padding: 30px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 120px;
+    margin-top: -5px; /* Pull up to avoid gap */
+}
+
+.category-name {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+}
+
+.category-btn {
+    width: 54px;
+    height: 54px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(5px);
+}
+
+.category-btn:hover {
+    background: #fff;
+    color: #2d5a27;
+    transform: scale(1.1);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .categories-section {
+        padding: 60px 20px;
+    }
+    
+    .section-title {
+        font-size: 36px;
+    }
+    
+    .category-name {
+        font-size: 24px;
+    }
+    
+    .category-card {
+        border-radius: 30px;
+    }
+}
