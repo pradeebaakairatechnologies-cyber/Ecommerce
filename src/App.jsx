@@ -11,6 +11,7 @@ import FeaturesBar from './components/FeaturesBar'
 import About from './components/About'
 import Products from './components/Products'
 import Snacks from './components/Snacks'
+import PaatiCorner from './components/PaatiCorner'
 import Reviews from './components/Reviews'
 import Footer from './components/Footer'
 
@@ -34,6 +35,7 @@ function App() {
       <About />
       <Products />
       <Snacks />
+      <PaatiCorner />
       <Reviews />
       <Footer />
     </>
