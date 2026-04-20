@@ -8,6 +8,7 @@ import Hero from './components/Hero'
 import Categories from './components/Categories'
 import FeaturesBar from './components/FeaturesBar'
 import About from './components/About'
+import Products from './components/Products'
 
 function App() {
   useEffect(() => {
@@ -26,6 +27,7 @@ function App() {
       <Categories />
       <FeaturesBar />
       <About />
+      <Products />
     </>
   )
 }
